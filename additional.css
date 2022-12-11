@@ -1,0 +1,140 @@
+
+@media screen and (min-width: 1200px){
+  .container {
+      width: 770px;
+  }
+}
+@media screen and (min-width: 992px){
+  .container {
+      width: 970px;
+  }
+}
+@media screen and (min-width: 768px){
+  .container {
+      width: 1500px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+* {
+    box-sizing: border-box;
+}
+body{
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+#rtopic{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+textarea{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+img{
+  width: 20pc;
+  height: 15pc;
+  padding: 20px;
+  z-index: 1;
+}
+img:hover {
+  cursor: pointer;
+  border-radius: 20px;
+  opacity: 0.5;
+  display: block;
+  transition: ease-in 0.5s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #cdcdcd;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: goldenrod;
+  color: white;
+}

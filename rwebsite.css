@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body{
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  padding: 16px;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: auto;
+}
+
+#rtopic{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  display: block;
+  padding: 5px;
+}

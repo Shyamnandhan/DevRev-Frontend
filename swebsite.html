@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="swebsite.css" type="text/css" rel="stylesheet"/>
+    <link href="website.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <a class="navbar-brand" href="#" style="font-family: 'Satisfy', cursive; font-weight: bolder;">HMM</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse pad" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li>
+                <a href="rwebsite.html"><button style="border: none;background-color: rgb(201, 145, 61); padding-left: 10px;padding-right:10px;font-family: 'Roboto Condensed', sans-serif; font-size: 15px;"><b>SIGN UP</b></button></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </section>
+    <div class="container">
+        <div id="rtopic"><b>LOGIN</b></div>
+        <hr>
+        <form action="test.php" method="post">
+          <label for="email"><b>Email ID</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+          <button type="submit" class="loginbtn" value="login" name="">Login</button>
+        </form>
+        <hr>
+        <div class="signin">
+            <p>Does not have an account? <a href="rwebsite.html">Sign up</a>.</p>
+        </div>
+    </div>
+</body>

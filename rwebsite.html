@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="rwebsite.css" type="text/css" rel="stylesheet"/> 
+    <link href="website.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <a class="navbar-brand" href="#" style="font-family: 'Satisfy', cursive; font-weight: bolder;">LMM</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse pad" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li>
+                <a href="swebsite.html"><button style="border: none;background-color: rgb(201, 145, 61); padding-left: 10px;padding-right:10px;font-family: 'Roboto Condensed', sans-serif; font-size: 15px;"><b>LOGIN</b></button></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </section>
+    <div class="container">
+        <div id="rtopic"><b>REGISTRATION FORM</b></div>
+        <hr>
+        
+        <label for="fname"><b>First name</b></label>
+        <input type="text" placeholder="First Name" name="fname" id="fname" required>
+        <label for="lname"><b>Last name</b></label>
+        <input type="text" placeholder="Last Name" name="lname" id="lname" required>
+        <label for="email"><b>Email ID</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        <label for="psw-repeat"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Enter Password Again" name="psw-repeat" id="psw-repeat" required>
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <button type="submit" class="registerbtn">Register</button>
+        <hr>
+        <div class="signin">
+            <p>Already have an account? <a href="swebsite.html">Sign in</a>.</p>
+        </div>
+    </div>
+</body>
